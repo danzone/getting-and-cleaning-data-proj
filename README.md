@@ -27,7 +27,7 @@ The script, run_analysis.R, which can also be found in this repo, can be execute
 5. Replaces activity number with descriptive activity names.
 6. Scopes data to only retain the mean and std dev data. Mean frequencies are not considered mean data and are removed.
 7. Creates a resultant tidy data set with the average of each variable for each activity and each subject. The 1st and 2nd columns of the resultant data set are the activity and subject performed respectively and the remaining columns are the averages. 
-8. Outputs the resultant tidy data set into a file named step5.txt in the working directory.
+8. Outputs the resultant tidy data set into a file named activity_subj_avg.txt in the working directory.
 
 ## Future work
 The script can be improved by combining steps 1-3 within one step so as to save on creating too many variables. 
